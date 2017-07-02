@@ -16,6 +16,9 @@
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
  
+ 
+ // Homepage styles
+ // Background gradient 
  .navbar, .home-callout {
    // Gradients from uiGradients.com 
    
@@ -24,6 +27,7 @@
   background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
+
 .home-callout {
   color: white;
   margin-top: -20px;
@@ -31,6 +35,8 @@
   padding-bottom: 100px;
 }
 
+
+// Navbar styles
 .navbar { border: none; }
 
 /* .navbar brand set to white */
@@ -42,7 +48,7 @@
     opacity: 0.75;
   }
 }
-
+// Typography styles
  h1, h2, h3 {
      font-family: 'Open Sans', sans-serif;
  }
